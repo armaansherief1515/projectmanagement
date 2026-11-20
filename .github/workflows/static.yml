@@ -36,7 +36,3 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v5
-``` :chatgpt-content-reference{index="0"}
-
-
-**Note:** This assumes your `frontend` folder contains a ready-to-deploy static website with `index.html` at its top level.
